@@ -25,21 +25,27 @@ Database
 * Menggunakan indexing dan pg_trgm untuk optimasi search
 
 Cara Menjalankan Project (Local)
+
 a. clone repository
   - git clone https://github.com/ninaasro/Single-page-CRUD-KRS.git
   - cd repository-name
+
 b. Setup Backend (Laravel)
   - cd backend
   - composer install
   - cp .env.example .env
   - php artisan key:generate
   -  Atur database di file .env
+
 c. Jalankan Migration
   - php artisan migrate
+
 d. Untuk generate minimal 5 juta data
   - php artisan db:seed
+
 e. Jalankan Backend
   - php artisan serve
+
 f. Setup FrontEnd
   - cd frontend
   - npm install
