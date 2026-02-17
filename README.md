@@ -1,5 +1,5 @@
 Project ini adalah aplikasi Single Page Application (SPA) untuk mengelola proses KRS (Pengambilan Mata Kuliah).Aplikasi dibuat untuk memenuhi tes teknis Web Developer (Full Stack) dengan fitur:
-1. CRUD Enrollment (KRS)
+1. CRUD Enrollment/KRS (Pada fitur Create, sistem melakukan upsert terhadap tabel students dan courses menggunakan firstOrCreate, lalu membuat enrollment dalam satu DB::transaction() untuk memastikan atomicity)
 2. Insert 3 tabel dalam 1 transaksi
 3. Server-side pagination
 4. Sorting semua kolom
