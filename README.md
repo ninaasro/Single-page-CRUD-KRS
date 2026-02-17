@@ -26,7 +26,7 @@ Database
 
 Cara Menjalankan Project (Local)
 a. clone repository
-  - git clone https://github.com/username/repository-name.git
+  - git clone https://github.com/ninaasro/Single-page-CRUD-KRS.git
   - cd repository-name
 b. Setup Backend (Laravel)
   - cd backend
