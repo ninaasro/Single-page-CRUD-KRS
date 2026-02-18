@@ -18,7 +18,6 @@ Frontend
 Backend 
 * Laravel
 * PostgreSQL
-* Query Builder (untuk performa list data)
 
 Database
 * PostgreSQL
@@ -50,3 +49,6 @@ f. Setup FrontEnd
   - cd frontend
   - npm install
   - npm run dev
+
+note:
+Saat project ini dideploy menggunakan cPanel, 5.000.000 data tidak dapat dijalankan di server online karena keterbatasan dari hosting, yaitu, Batas penggunaan memory dan waktu eksekusi PHP, Batasan ukuran query/transaksi PostgreSQL di hosting, sehingga deploy tersebut tidaklah sempurna. Namun hal itu sudah di uji di server lokal dan aplikasi tetap berjalan dengan baik<img width="1254" height="514" alt="image" src="https://github.com/user-attachments/assets/7514363c-d35e-4fa2-968b-9778a7d0f1e1" />
